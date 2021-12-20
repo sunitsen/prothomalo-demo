@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-----=====vandor fildes======------>
+    <link rel="stylesheet" href="assets/vendor/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/online.css">
+    <link rel="stylesheet" href="assets/vendor/fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/responsive/responsive.css">
+</head>
+<body>
+
+<!-------------main html design elements----------->
+<main>
+  <header>
+    <div class="container" style="max-width: 1280px; ">
+       <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-2 col-2 header-left" >
+            <div class="sidebar">
+              <div id="mySidepanel" class="sidepanel">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="far fa-times-circle"></i></a>
+                <a href="#">প্রচ্ছদ </a>
+                <a href="#">সর্বশেষ সংবাদ</a>
+                <a href="#">বিশেষ সংবাদ</a>
+                <a href="#">করোনাভাইরাস</a>
+                <a href="#">রাজনীতি</a>
+                <a href="#">বাংলাদেশ</a>
+                <a href="#">বিশ্ব</a>
+                <a href="#">বাণিজ্য</a>
+                <a href="#">মতামত</a>
+                <a href="#">খেলা</a>
+                <a href="#">বিনোদন</a>
+                <a href="#">লাইফস্টাইল</a>
+                <a href="#">জীবনযাপন</a>
+                <a href="#">স্বাস্থ্য</a>
+                <a href="#">ফিচার</a>
+                <a href="#">শিক্ষা</a>
+
+                
+                
+                <a href="#">ধর্ম</a>
+                <a href="#">ছবি</a>
+                <a href="#">ভিডিও</a>
+                <a href="#">চাকরি</a>
+                <a href="#">ই পেপার</a>
+                <a href="#">উত্তর আমেরিকা সংস্করণ</a>
+                <a href="#">English Edition</a>
+         
+
+                <ul class="social-media">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                <li>  <a href="#"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+
+              </div>
+             
+            </div>
+            <div class="sidebar-menu-btn">
+              <button class="openbtn" onclick="openNav()">☰</button>
+            </div>
+            <div class="search-box" >
+              <form action="">
+                  <button type="submit" id="search" onclick="document.getElementById('search').style.background = '#50b9ff'"    class="btn-search"><i class="fas fa-search"></i></button>
+                  <input  type="text" class="input-search" placeholder="যা খুঁজতে চান">
+              </form>
+            </div>
+            <div class="today-date">
+              <p>বৃহস্পতিবার, ১৬ ডিসেম্বর ২০২১</p>
+            </div>
+          </div>    
+          <div class="col-lg-6 col-md-6 col-sm-8 col-8 header-center">
+            <a href="#" class="logo"><img src="assets/vendor/images/hero/palo-bangla-bb996cdb70d2e0ccec8c.svg" alt=""></a>
+          </div> 
+          <div class="col-lg-3 col-md-3 col-sm-2 col-2 header-right">
+         
+            <div class="header-right-btn">
+              <button class="notification" type="button" class="login"><i class="far fa-bell"></i></button>
+              <button class="user" type="button" class="login"><i class="far fa-user"></i></button>
+              <button class="login" type="button" class="login">Login</button>
+            </div>
+      <div class="language">
+
+
+   
+
+
+        <div class="dropdown">
+          <button class="dropbtn">সংস্করণ:<i class="fas fa-chevron-down"></i></button>
+          <div class="dropdown-content">
+            <a href="#">বাংলা</a>
+            <a href="#">English</a>
+            <a href="#">উত্তর আমেরিকা</a>
+          </div>
+        </div>
+      </div>
+            
+  
+      
+          </div> 
+       </div>
+       <hr>
+       <!----main navbar--------->
+
+      
+   </div>
+  </header>
+  <div class="main-nav" >
+    <ul class=" ">
+      <li class="">
+        <a class=" " aria-current="page" href="#">প্রচ্ছদ</a>
+      </li>
+      <li class="">
+        <a class="" href="#">সর্বশেষ সংবাদ</a>
+      </li>
+      <li class="">
+        <a class="" href="#">বিশেষ সংবাদ</a>
+      </li>
+      <li class="">
+        <a class="" href="#">করোনাভাইরাস</a>
+      </li>
+      <li class="">
+        <a class="" href="#">রাজনীতি</a>
+      </li>
+   
+      <li class="">
+        <a class="" href="#">বাংলাদেশ</a>
+      </li>
+      <li class="">
+        <a class="" href="#">বিশ্ব</a>
+      </li>
+   
+      <li class="">
+        <a class="" href="#">বাণিজ্য</a>
+      </li>
+      <li class="">
+        <a class="" href="#">মতামত</a>
+      </li>
+   
+      <li class="">
+        <a class="" href="#">খেলা</a>
+      </li>
+      <li class="">
+        <a class="" href="#">বিনোদন</a>
+      </li>
+   
+      <li class="">
+        <a class="" href="#">লাইফস্টাইল</a>
+      </li>
+
+   
+
+    </ul>
+   </div>
+
+
+<!------header adds------>
+<div class="header-add">
+  <img src="assets/img/7945043521025401803.png" alt="">
+</div>
+</main>
+
+<!---------section one------------>
+<section id="section-one" class="section-one">
+<div class="container" style="max-width: 1280px !important;">
+
+
+
+  <!----------second row------->
+  <div class="row  mt-4">
+
+
+<div class="col-lg-12">
+  <div class="row">
+    <div class="col-xl-6 col-lg-6 order-1 border-xl-right"  >
+  
+      <div class="row">
+        <div class="col-xl-6 col-lg-6 order-2 order-lg-1" >
+          <div class="content-box">
+            <h3><a href="#"><span class="after-spsan">নবীনগরে গুলিতে নিহত</span> ২গুলির শব্দ শুনে এরশাদুলের মেয়ে ‘বাবা’ বলে চিৎকার দিয়ে ঘুম থেকে জেগে ওঠে</a></h3>
+            <p><a href="#">উপজেলার কুড়িঘর গ্রামের মহেশ সড়কে দুর্বৃত্তরা প্রথমেই বাদলকে এবং পরে এরশাদুলকে গুলি করে। বাদল সঙ্গে সঙ্গেই মাটিতে লুটিয়ে পড়ে </a></p>
+            <span class="time">৫ মিনিট আগে</span>
+          </div>
+       </div>
+        <div class="col-xl-6 col-lg-6 order-1 order-lg-2" >
+       <div class="img-box">
+         <div class="ratio ratio-4x3">
+           <img src="assets/img/one.png" alt="">
+         </div>
+       </div>
+       </div>
+      </div>
+   
+     </div>
+   
+   
+     <div class="col-xl-3 col-lg-3 order-3 order-lg-2 " >
+       <div class="content-box-small">
+         <h3><a href="#"><span class="after-spsan">নবীনগরে গুলিতে নিহত</span> ২গুলির শব্দ শুনে এরশাদুলের মেয়ে ‘বাবা’ বলে চিৎকার দিয়ে ঘুম থেকে জেগে ওঠে</a></h3>
+         <p><a href="#">উপজেলার কুড়িঘর গ্রামের মহেশ সড়কে দুর্বৃত্তরা প্রথমেই বাদলকে এবং পরে এরশাদুলকে গুলি করে। বাদল সঙ্গে সঙ্গেই মাটিতে লুটিয়ে পড়ে </a></p>
+         <span class="time">৫ মিনিট আগে</span>
+       </div>
+   
+       <div class="add-box">
+         <img src="assets/img/banner.webp" alt="">
+       </div>
+     
+     </div>
+     <div class="col-xl-3 col-lg-3 order-2 order-lg-3 border-xl-left " >
+     <div class="add-box">
+       <img class="border-xl-bottom pb-3" src="assets/img/addonew.gif" alt="">
+     </div>
+     </div>
+  </div>
+</div>
+
+
+    <!-------->
+    <div class="col-xl-9 col-lg-12" >
+    
+    <div class="row  ">
+      <div class="col-xl-4 col-lg-4 col-md-12 border-xl-top " >
+        <div class="content-single-box  border-xl-right">
+          <h3><a href="#"><span class="after-spsan">নবীনগরে গুলিতে নিহত</span> ২গুলির শব্দ শুনে এরশাদুলের মেয়ে ‘বাবা’ বলে চিৎকার দিয়ে ঘুম থেকে জেগে ওঠে</a></h3>
+          <p><a href="#">উপজেলার কুড়িঘর গ্রামের মহেশ সড়কে দুর্বৃত্তরা প্রথমেই বাদলকে এবং পরে এরশাদুলকে গুলি করে। বাদল সঙ্গে সঙ্গেই মাটিতে লুটিয়ে পড়ে </a></p>
+          <span class="time">৫ মিনিট আগে</span>
+        </div>
+      </div>
+      <div class="col-xl-4 col-lg-4 col-md-12 border-xl-top " >
+        <div class="content-single-box border-xl-right">
+          <h3><a href="#"><span class="after-spsan">নবীনগরে গুলিতে নিহত</span> ২গুলির শব্দ শুনে এরশাদুলের মেয়ে ‘বাবা’ বলে চিৎকার দিয়ে ঘুম থেকে জেগে ওঠে</a></h3>
+          <p><a href="#">উপজেলার কুড়িঘর গ্রামের মহেশ সড়কে দুর্বৃত্তরা প্রথমেই বাদলকে এবং পরে এরশাদুলকে গুলি করে। বাদল সঙ্গে সঙ্গেই মাটিতে লুটিয়ে পড়ে </a></p>
+          <span class="time">৫ মিনিট আগে</span>
+        </div>
+        </div>
+
+      <div class="col-xl-4 col-lg-4 col-md-12 border-xl-top" >
+        <div class="content-single-box ">
+          <h3><a href="#"><span class="after-spsan">নবীনগরে গুলিতে নিহত</span> ২গুলির শব্দ শুনে এরশাদুলের মেয়ে ‘বাবা’ বলে চিৎকার দিয়ে ঘুম থেকে জেগে ওঠে</a></h3>
+          <p><a href="#">উপজেলার কুড়িঘর গ্রামের মহেশ সড়কে দুর্বৃত্তরা প্রথমেই বাদলকে এবং পরে এরশাদুলকে গুলি করে। বাদল সঙ্গে সঙ্গেই মাটিতে লুটিয়ে পড়ে </a></p>
+          <span class="time">৫ মিনিট আগে</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row row-padding"  >
+        <div class="col-xl-4 col-lg-6 border-xl-top  " >
+          <div class="row small-box border-xl-right">
+            <div class="col-xl-6 col-lg-6 col-6" >
+          
+              <a href="#"> <img src="assets/img/img5.webp" alt=""></a>
+              
+              </div>
+        
+                <div class="col-xl-6 col-lg-6 col-6" >
+              <h5><a href="#">টিকিটের দাম বাড়ার পেছনে ‘বিমানের কিছু কর্মকর্তা’</a></h5>
+              <span class="time">৫ মিনিট আগে</span>
+              </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6 border-xl-top " >
+          <div class="row small-box border-xl-right">
+            <div class="col-xl-6 col-lg-6 col-6" >
+          
+              <a href="#"> <img src="assets/img/img5.webp" alt=""></a>
+             
+              </div>
+        
+                <div class="col-xl-6 col-lg-6 col-6" >
+              <h5><a href="#">টিকিটের দাম বাড়ার পেছনে ‘বিমানের কিছু কর্মকর্তা’</a></h5>
+              <span class="time">৫ মিনিট আগে</span>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-xl-4 col-lg-6 border-xl-top " >
+          <div class="row small-box">
+            <div class="col-xl-6 col-lg-6 col-6" >
+        
+              <a href="#"> <img src="assets/img/img5.webp" alt=""></a>
+              
+            </div>
+        
+              <div class="col-xl-6 col-lg-6 col-6" >
+              <h5><a href="#">টিকিটের দাম বাড়ার পেছনে ‘বিমানের কিছু কর্মকর্তা’</a></h5>
+              <span class="time">৫ মিনিট আগে</span>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-xl-4 col-lg-6 border-xl-top  " >
+          <div class="row small-box border-xl-right">
+            <div class="col-xl-6 col-lg-6 col-6" >
+          
+              <a href="#"> <img src="assets/img/img5.webp" alt=""></a>
+              
+              </div>
+        
+                <div class="col-xl-6 col-lg-6 col-6" >
+              <h5><a href="#">টিকিটের দাম বাড়ার পেছনে ‘বিমানের কিছু কর্মকর্তা’</a></h5>
+              <span class="time">৫ মিনিট আগে</span>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-xl-4 col-lg-6 border-xl-top  " >
+          <div class="row small-box border-xl-right">
+            <div class="col-xl-6 col-lg-6 col-6" >
+          
+              <a href="#"> <img src="assets/img/img5.webp" alt=""></a>
+            
+              </div>
+        
+                <div class="col-xl-6 col-lg-6 col-6">
+              <h5><a href="#">টিকিটের দাম বাড়ার পেছনে ‘বিমানের কিছু কর্মকর্তা’</a></h5>
+              <span class="time">৫ মিনিট আগে</span>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-xl-4 col-lg-6 border-xl-top " >
+          <div class="row small-box">
+            <div class="col-xl-6 col-lg-6 col-6" >
+          
+              <a href="#"> <img src="assets/img/img5.webp" alt=""></a>
+              
+              </div>
+        
+                <div class="col-xl-6 col-lg-6 col-6" >
+              <h5><a href="#">টিকিটের দাম বাড়ার পেছনে ‘বিমানের কিছু কর্মকর্তা’</a></h5>
+              <span class="time">৫ মিনিট আগে</span>
+              </div>
+          </div>
+        </div>
+        
+    </div>
+    
+
+
+    
+    
+    </div>
+    <div class="col-xl-3 col-lg-12  border-xl-left " >
+    <div class="row">
+      <div class="col-xl-12 col-lg-6 col-sm-6" >
+       <div class="side-box border-xl-bottom ">
+         <a href="#">
+           <img class="" src="assets/img/one.png" alt="">
+         </a>
+         <h5><a href="#">টিকিটের দাম বাড়ার পেছনে ‘বিমানের কিছু কর্মকর্তা’</a></h5>
+       </div>
+
+       
+      </div>
+
+       <div class="col-xl-12 col-lg-6 col-sm-6" >
+         <div class="row side-box-two border-xl-bottom">
+           <div class="col-xl-6 col-6">
+            <a href="#"> <img src="assets/img/one.png" alt=""></a>
+           </div>
+           <div class="col-xl-6 col-6">
+             <h5><a href="#">টিকিটের দাম বাড়ার পেছনে ‘বিমানের কিছু কর্মকর্তা’</a></h5>
+           </div>
+           <span class="time">৫ মিনিট আগে</span>
+         </div>
+         <div class="add-box border-xl-top mt-3">
+           <img src="assets/img/game_changer.webp" alt="">
+         </div>
+       </div>
+    </div>
+    </div>
+  </div>
+</div>
+</section>
+  <div class="add-banner border-xl-top border-xl-bottom mt-3">
+    <img src="assets/img/addbanner.png" alt="">
+  </div>
+
+<section id="section-two" class="section-two">
+  <div class="container" style="max-width: 1280px !important;">
+  <div class="row">
+    <div class="col-xl-3 col-lg-4" >
+    <div class="tab-one">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link  active" id="home-tab"  data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">সুখবর</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">পঠিত</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">আলোচিত</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane border-none fade show active"  id="home" role="tabpanel" aria-labelledby="home-tab">
+       <a href="#">
+        <div class="tab-content">
+          <span class="tab-number">১ </span>
+          <div class="tab-text">
+            ‘পরিচয়’ সংস্কৃতি, ফায়দা লোটা ও দাপটে অন্ধ যখন মানুষ
+          </div>
+        </div>
+        
+       </a>
+       <a href="#">
+        <div class="tab-content">
+          <span class="tab-number"> ২</span>
+          <div class="tab-text">
+            ‘পরিচয়’ সংস্কৃতি, ফায়দা লোটা ও দাপটে অন্ধ যখন মানুষ
+          </div>
+        </div>
+        
+       </a>
+       <a href="#">
+        <div class="tab-content">
+          <span class="tab-number">৩</span>
+          <div class="tab-text">
+            ‘পরিচয়’ সংস্কৃতি, ফায়দা লোটা ও দাপটে অন্ধ যখন মানুষ
+          </div>
+        </div>
+        
+       </a>
+       <a href="#">
+        <div class="tab-content">
+          <span class="tab-number"> ৪</span>
+          <div class="tab-text">
+            ‘পরিচয়’ সংস্কৃতি, ফায়দা লোটা ও দাপটে অন্ধ যখন মানুষ
+          </div>
+        </div>
+        
+       </a>
+       <a href="#">
+        <div class="tab-content">
+
+           
+          <span class="tab-number">৫</span>
+          <div class="tab-text">
+            ‘পরিচয়’ সংস্কৃতি, ফায়দা লোটা ও দাপটে অন্ধ যখন মানুষ
+          </div>
+        </div>
+        
+       </a>
+          
+        </div>
+        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+          
+          
+          <a href="#">
+            <div class="tab-content">
+              <span class="tab-number">১ </span>
+              <div class="tab-text">
+                ‘পরিচয়’ সংস্কৃতি, ফায়দা লোটা ও দাপটে অন্ধ যখন মানুষ
+              </div>
+            </div>
+            
+           </a>
+           <a href="#">
+            <div class="tab-content">
+              <span class="tab-number"> ২</span>
+              <div class="tab-text">
+                ‘পরিচয়’ সংস্কৃতি, ফায়দা লোটা ও দাপটে অন্ধ যখন মানুষ
+              </div>
+            </div>
+            
+           </a>
+           <a href="#">
+            <div class="tab-content">
+              <span class="tab-number">৩</span>
+              <div class="tab-text">
+                ‘পরিচয়’ সংস্কৃতি, ফায়দা লোটা ও দাপটে অন্ধ যখন মানুষ
+              </div>
+            </div>
+            
+           </a>
+           <a href="#">
+            <div class="tab-content">
+              <span class="tab-number"> ৪</span>
+              <div class="tab-text">
+                ‘পরিচয়’ সংস্কৃতি, ফায়দা লোটা ও দাপটে অন্ধ যখন মানুষ
+              </div>
+            </div>
+            
+           </a>
+           <a href="#">
+            <div class="tab-content">
+    
+               
+              <span class="tab-number">৫</span>
+              <div class="tab-text">
+                ‘পরিচয়’ সংস্কৃতি, ফায়দা লোটা ও দাপটে অন্ধ যখন মানুষ
+              </div>
+            </div>
+            
+           </a>
+          
+          
+
+        </div>
+        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+              
+
+          <a href="#">
+            <div class="tab-content">
+              <span class="tab-number">১ </span>
+              <div class="tab-text">
+                ‘পরিচয়’ সংস্কৃতি, ফায়দা লোটা ও দাপটে অন্ধ যখন মানুষ
+              </div>
+            </div>
+            
+           </a>
+           <a href="#">
+            <div class="tab-content">
+              <span class="tab-number"> ২</span>
+              <div class="tab-text">
+                ‘পরিচয়’ সংস্কৃতি, ফায়দা লোটা ও দাপটে অন্ধ যখন মানুষ
+              </div>
+            </div>
+            
+           </a>
+           <a href="#">
+            <div class="tab-content">
+              <span class="tab-number">৩</span>
+              <div class="tab-text">
+                ‘পরিচয়’ সংস্কৃতি, ফায়দা লোটা ও দাপটে অন্ধ যখন মানুষ
+              </div>
+            </div>
+            
+           </a>
+           <a href="#">
+            <div class="tab-content">
+              <span class="tab-number"> ৪</span>
+              <div class="tab-text">
+                ‘পরিচয়’ সংস্কৃতি, ফায়দা লোটা ও দাপটে অন্ধ যখন মানুষ
+              </div>
+            </div>
+            
+           </a>
+           <a href="#">
+            <div class="tab-content">
+    
+               
+              <span class="tab-number">৫</span>
+              <div class="tab-text">
+                ‘পরিচয়’ সংস্কৃতি, ফায়দা লোটা ও দাপটে অন্ধ যখন মানুষ
+              </div>
+            </div>
+            
+           </a>
+          
+          
+
+        </div>
+      </div>
+      
+    </div>
+    </div>
+    <div class="col-xl-6 col-lg-8" >
+    
+      <div class="ratio ratio-4x3 inner-element">
+        <a href="#"><img class="" src="assets/img/prothomalo-bangla.webp" alt=""></a>
+        <div class="inner-content-box">
+        <h5><a href="#">রিপলি’স বিলিভ ইট অর নট!</a></h5>
+        <h2><a href="#"> প্রাণীর নাক চারটি</a></h2>
+        <p><a href="#">প্রাচীন মিশরে পুরোহিতেরা শুদ্ধাচার অনুষ্ঠানের সময় শরীরের সব লোম ছেটে ফেলতেন...</a></p>
+        <span class="time">৫ মিনিট আগে</span>
+        </div>
+      </div>
+
+
+       <div class="row mt-3">
+         <div class="col-xl-6 col-lg-6">
+          <div class="inner-small-box">
+            <div class="ratio ratio-21x9">
+              <img src="assets/img/innarsmall.webp" alt="">
+            </div>
+            <div class="inner-small-box-content mt-2">
+              <h5><a href="#">রিপলি’স বিলিভ ইট অর নট!</a></h5>
+              <h2><a href="#"> প্রাণীর নাক চারটি</a></h2>
+              <p><a href="#">প্রাচীন মিশরে পুরোহিতেরা শুদ্ধাচার অনুষ্ঠানের সময় শরীরের সব লোম ছেটে ফেলতেন...</a></p>
+              <span class="time">৫ মিনিট আগে</span>
+            </div>
+          </div>
+         </div>
+         <div class="col-xl-6 col-lg-6">
+          <div class="inner-small-box">
+            <div class="ratio ratio-21x9">
+              <img src="assets/img/innarsmall.webp" alt="">
+            </div>
+            <div class="inner-small-box-content mt-2">
+              <h5><a href="#">রিপলি’স বিলিভ ইট অর নট!</a></h5>
+              <h2><a href="#"> প্রাণীর নাক চারটি</a></h2>
+              <p><a href="#">প্রাচীন মিশরে পুরোহিতেরা শুদ্ধাচার অনুষ্ঠানের সময় শরীরের সব লোম ছেটে ফেলতেন...</a></p>
+              <span class="time">৫ মিনিট আগে</span>
+            </div>
+          </div>
+         </div>
+       </div>
+    
+    </div>
+    <div class="col-xl-3 col-lg-12">
+      <div class="add-box">
+        <a href="#"><img src="assets/img/downsize_200k_v1.jpg" alt=""> </a>
+        <h6><a href="#">অনলাইন অর্ডারে দেশব্যাপী ফ্রি ডেলিভারি ও ০% ইন্টারেস্টে ৬ মাসের ইএমআই সুবিধা</a></h6>
+      </div>
+
+
+      <div class="row side-box-three border-xl-bottom">
+        <div class="col-xl-6 col-6">
+         <a href="#"> <img src="assets/img/smallone.webp" alt=""></a>
+        </div>
+        <div class="col-xl-6 col-6">
+
+          <h5><a href="#">স্বাস্থ্যবটিকা</a></h5>
+          <h3><a href="#">হজমসমস্যা দূর করতে বাঁধাকপি এত উপকারী!</a></h3>
+        </div>
+      </div>
+      <div class="row side-box-three mt-3">
+        <div class="col-xl-6 col-6">
+         <a href="#"> <img src="assets/img/smalltwo.webp" alt=""></a>
+        </div>
+        <div class="col-xl-6 col-6">
+
+          <h5><a href="#">রিপলি’স বিলিভ ইট অর নট!</a></h5>
+          <h3><a href="#">দুই চা–চামচের বেশি জায়ফলের গুঁড়া খেলে কী হবে?</a></h3>
+        </div>
+      </div>
+
+      <div class="row side-box-three">
+        <div class="col-xl-6 col-6">
+         <a href="#"> <img src="assets/img/smallthree.webp" alt=""></a>
+        </div>
+        <div class="col-xl-6 col-6">
+
+          <h5><a href="#">পিনাটস ১৫২</a></h5>
+          <h3><a href="#">‘এটাই কি তবে হাজার টাকার শিক্ষা?’</a></h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  </div>
+</section>
+
+<div id="imaginary_container">
+  <div id="search_toggle">
+      <button class="show"><i class="fa fa-search"></i></button>
+  </div>
+
+  <form action="https://www.prothomalony.com/archive" method="get" id="searchIDform">
+      <div class="input-group stylish-input-group">
+          <input type="text" class="form-control" name="search" placeholder="যা খুজঁতে চান..." required="">
+          <span class="input-group-addon">
+              <button type="submit">
+                  <span class="fa fa-search"></span>
+              </button>
+          </span>
+      </div>
+  </form>
+
+</div>
+  
+  </div>
+</div>
+
+
+ <!-----=====vandor fildes js======------>
+ <script src="assets/js/main.js"></script>
+ <script src="assets/vendor/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+ <script src="assets/vendor/fontawesome-free-5.15.4-web/js/all.js"></script>
+
+
+ <script>
+  $(document).ready(function() {
+      $('#search_toggle').click(function(e) {
+          e.preventDefault();
+          e.stopPropagation();
+          $('#searchIDform').toggle();
+          $('#search_toggle').hide();
+      });
+      $('#searchIDform').click(function(e) {
+          e.stopPropagation();
+      });
+      $('body').click(function() {
+          $('#searchIDform').hide();
+          $('#search_toggle').show();
+      });
+
+  });
+</script>
+
+</body>
+</html>
+
+

@@ -1,0 +1,147 @@
+
+@media only screen and (max-width: 1195px){
+  .main-nav ul li{
+  margin: .3rem .8rem;
+}
+}
+
+@media only screen and (max-width: 931px){
+  .today-date{
+    font-size: 14px !important;
+    
+  }
+}
+
+
+@media only screen and (max-width: 844px){
+  .today-date{
+    font-size: 12px !important;
+    
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .header-add{
+    margin-top: 65px;
+  }
+  header{
+    position: relative;
+  }
+  header hr{
+
+    display: block;
+  }
+  .search-box{
+    display: none;
+  }
+  .openbtn{
+    position: absolute;
+    left: 25px;
+    top:25px;
+  }
+  .logo img{
+    position: absolute;
+    top:0;
+    left: 80px;
+    width: 14rem;
+  }
+  .login{
+    display: none;
+  }
+  .user{
+    display: block;
+    position: absolute;
+    right: 50px;
+    top:30px;
+  }
+  .notification{
+    position: absolute;
+    right: 100px;
+    top:30px;
+  }
+  .today-date{
+    display: none;
+  }
+  .language{
+    display: none;
+  }
+  .main-nav{
+    display: none;
+  }
+}
+
+
+
+@media only screen and (max-width: 435px){
+  header{
+    position: relative;
+  }
+  .search-box{
+    display: none;
+  }
+  .openbtn{
+    position: absolute;
+    left: 10px;
+    top:15px;
+  }
+  .logo img{
+    position: absolute;
+    top:0;
+    left: 50px;
+    width: 14rem;
+  }
+  .login{
+    display: none;
+  }
+  .user{
+    display: block;
+    position: absolute;
+    right: 10px;
+    top:20px;
+  }
+  .notification{
+    position: absolute;
+    right: 50px;
+    top:20px;
+  }
+  .logo img{
+    width: 10rem;
+  }
+}
+@media only screen and (max-width: 290px){
+  header{
+    position: relative;
+  }
+  .search-box{
+    display: none;
+  }
+  .openbtn{
+    position: absolute;
+    left: 10px;
+    top:35px;
+  }
+  .logo img{
+    position: absolute;
+   left: 0;
+    right: 0;
+    display: flex;
+    margin: auto;
+    width: 5rem ;
+  }
+  .login{
+    display: none;
+  }
+  .user{
+    display: block;
+    position: absolute;
+    right: 10px;
+    top:36px;
+  }
+  .notification{
+    position: absolute;
+    right: 50px;
+    top:36px;
+  }
+ 
+}
+
