@@ -12,11 +12,9 @@
   }
 }
 
-
 @media only screen and (max-width: 844px){
   .today-date{
     font-size: 12px !important;
-    
   }
 }
 

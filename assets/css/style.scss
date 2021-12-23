@@ -847,3 +847,29 @@ margin-left: 40px;
   color: #fff;
   font-size: 12px;
 }
+
+
+
+
+.footer-logo {
+  width: 100%;
+}
+
+
+
+.footer-logo a img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+}
+
+.footer-logo a span {
+  margin-left: 2px;
+  margin-top: 6px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: #000;
+  font-family: arial;
+}
